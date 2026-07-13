@@ -1,2 +1,2 @@
 # python-learning
-learning pytohn from scratch-
+learning pytohn from scratch
