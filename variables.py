@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #variables - like a container where we store our value so that we can
              #use it later in our code
 '''print("My name is Trisha")
@@ -23,7 +23,7 @@ print("support@"+id)
 print("www."+id)
 
 
-=======
+
 #variables - like a container where we store our value so that we can
              #use it later in our code
 '''print("My name is Trisha")
@@ -48,4 +48,4 @@ print("support@"+id)
 print("www."+id)
 
 
->>>>>>> fa28488 (first upload)
+
