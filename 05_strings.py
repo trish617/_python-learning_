@@ -31,3 +31,22 @@ print(info_total + " " + "total spent")
 name1 = "chloe"
 age1 = 26
 print(f"my name is {name1}. i am {age1} years old")
+
+#split()
+name = "Adam-26-Australia-Male-Maried"
+print(name.split("-"))
+
+# strings repetion * 
+print("he" * 2)
+
+# indexing and slicing
+# to extract single character we use indexing
+
+name = "Trisha" # wants to extract character i
+print(name[2])
+
+#slicing - extract multiple character 
+
+print(name[0:3])
+print(name[0:4:2])
+
