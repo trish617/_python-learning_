@@ -50,3 +50,26 @@ print(name[2])
 print(name[0:3])
 print(name[0:4:2])
 
+# whitespace cleanup
+a = " Data engineering" # left space
+a = " Data engineering".lstrip()
+print(a)
+b = "Python " #right whitespace
+b = "Python ".rstrip()
+print(b)
+c = " Hello world " # both side spaces
+c = " Hello world ".strip()
+print(c)
+d = '$$$$Hey python'.strip("$")
+print(d)
+
+# how to detect extra spaces inside your data
+message = "  Data Engineering  "
+#len(message) # length of the text stored in variable
+no_of_whitespaces  = len(message) - len(message.strip())
+length_text = len(message)
+print("no. of white spaces :", no_of_whitespaces)
+print("length of text : ", length_text )
+
+# searching methods
+
