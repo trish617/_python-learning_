@@ -36,11 +36,11 @@ username = input("Enter your username : ")
 if username.find(' ') > 0 :
     print("Usename must not contain any spaces !")
 else :
-    print(f"welcome {username}!")
+    print(f"welcome {username}!")'''
 
 # username must not contain any digits
 username = input("Enter your username : ")
-if username.isdigit() :
+if username.isalpha() :
     print("Username must not contain any digits!")
 else :
-    print(f"hello {username}")'''
+    print(f"hello {username}")
