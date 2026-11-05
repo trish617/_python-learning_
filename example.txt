@@ -1,0 +1,2 @@
+welcome to python programming !!
+The product and consumer data will shortly arrive.welcome to another text file!
